@@ -1,4 +1,7 @@
 package com.studie.eindopdracht.garage.repositories;
 
-public interface CustomerRepository {
+import com.studie.eindopdracht.garage.models.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
 }
