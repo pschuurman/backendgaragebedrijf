@@ -1,6 +1,5 @@
 package com.studie.eindopdracht.garage.controllers;
 
-
 import com.studie.eindopdracht.garage.dtos.CustomerDto;
 import com.studie.eindopdracht.garage.service.CustomerService;
 import org.springframework.http.HttpStatus;
