@@ -1,6 +1,7 @@
 package com.studie.eindopdracht.garage.service;
 
 import com.studie.eindopdracht.garage.dtos.CustomerDto;
+import com.studie.eindopdracht.garage.exceptions.RecordNotFoundException;
 import com.studie.eindopdracht.garage.models.Customer;
 import com.studie.eindopdracht.garage.repositories.CustomerRepository;
 import org.springframework.stereotype.Service;
